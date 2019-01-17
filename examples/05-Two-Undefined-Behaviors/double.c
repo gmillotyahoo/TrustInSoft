@@ -17,6 +17,8 @@ int main(void)
     array[3] = 0;
     array[4] = 1;
 
+    printf("Value is %d", n); 
+     
     for (i = 0; i <= 5; i++) {
       /* The analyzer iterates on each element of the array, and print
          the value stored in it. Functions from the standard library,
@@ -29,8 +31,7 @@ int main(void)
          the array. */
       printf("array[%d] = %d\n", i, array[i]);
     }
-     
-     printf("Value is %d", n);
+    
   }
 
   return 0;
