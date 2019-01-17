@@ -11,7 +11,7 @@ int main(void)
   int *array = malloc(5 * sizeof(int));
 
   if (array != NULL) {
-    array[0] = 13+n;
+    array[0] = 14+n;
     array[1] = 7;
     array[2] = 42;
     array[3] = 0;
